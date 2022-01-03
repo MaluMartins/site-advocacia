@@ -49,14 +49,33 @@ ul {
     font-size: 1.4rem;
 }
 
+.banner-text {
+    background-image: url("foto-banner.png");
+    background-repeat: no-repeat;
+    background-position: center;    
+    
+    color: white;
+}
+
 article {
     margin: 1rem;
 }
 
+footer {
+    background-color: rgb(26, 26, 26);
+    color: white;
+    text-align: center;
+
+    padding: 2rem 0 2rem 0;
+}
 
 @media only screen and (max-width: 768px) {
     .navbar-brand {
         width: 40%;
+    }
+    .banner-text {
+        padding: 2rem;
+        background-size: 300%;
     }
 }
 
@@ -65,8 +84,11 @@ article {
         position: fixed;
         max-width: 28%;
     }
-
     article {
-        margin-left: 32%;
+        margin: 1rem 4rem 4rem 4rem;
+    }
+    .banner-text {
+        padding: 20rem 2rem 2rem 2rem;
+        background-size: 100%;
     }
 }
