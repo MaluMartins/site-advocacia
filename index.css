@@ -57,6 +57,10 @@ ul {
     color: white;
 }
 
+.banner-escritorio {
+    width: 100%;
+}
+
 article {
     margin: 1rem;
 }
@@ -77,6 +81,12 @@ footer {
         padding: 2rem;
         background-size: 300%;
     }
+    .escritorio-article {
+        padding: 1rem;
+    }
+    .logo-img {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -90,5 +100,22 @@ footer {
     .banner-text {
         padding: 20rem 2rem 2rem 2rem;
         background-size: 100%;
+    }
+    .escritorio-article {
+        display: flex;
+        padding: 2rem;
+        font-size: 1.2rem;
+    }
+    .logo-img {
+        width: 30%!important;
+        height: 30%;
+        margin: 0;
+        margin-top: 6%;
+    }
+    .vertical-line {
+        height: 400px;
+        width: 7px;
+        background-color: rgb(189, 189, 189);
+        margin: 0 1rem 0 1rem;
     }
 }
