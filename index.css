@@ -7,6 +7,7 @@
 .navbar {
     background-color: black!important;
 }
+
 .navbar-brand {
     width: 12%;
 }
@@ -30,6 +31,10 @@
 
 .navbar-toggler {
     background-color: #a68337!important;
+}
+
+.navbar-toggler-icon {
+    color: black!important;
 }
 
 .sidebar {
@@ -56,6 +61,7 @@ ul {
     background-image: url("foto-banner.png");
     background-repeat: no-repeat;
     background-position: center;    
+    background-size: cover!important;
     
     color: white;
 }
