@@ -1,2 +1,2 @@
-# site-advocacia
- Trabalho de desenvolvimento de um site para escritório de advocacia.
+<h1>Site para escritório de advocacia</h1>
+<p>Site desenvolvido a pedido de cliente para um escritório de advocacia</p>
